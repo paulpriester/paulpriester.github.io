@@ -10,7 +10,6 @@
   <script src="https://use.fontawesome.com/aa2d74450c.js"></script>
 
   <style type="text/css">
-
     p{
        font-family: 'Cormorant', serif;
        font-size: 120%;
@@ -29,9 +28,8 @@
           margin: 0 auto;
           padding: 20px 0px 0px 0px;
           }
-
- 	 section {
-    			text-align: center;
+   section {
+          text-align: center;
           display: block;
           margin: auto 0;
           font-size:150px;
@@ -44,81 +42,198 @@
           padding-right: 20px; 
           border-radius: 50%;
        }
-
-
     .margin{
       margin-bottom: 45px;
     }
-
    .container-fluid {      
       padding-top: 70px;
       padding-bottom: 70px;
   }
-
   .bg-1 { 
-      background: url(https://i.stack.imgur.com/yEQ6k.jpg);
-      color: white;
+      background: url("https://picjumbo.imgix.net/HNCK3549.jpg?q=40&w=1650&sharp=30");
+      background-size: 100%;
+      color: rgba(255, 255, 255, 0.7);
+      text-shadow: 4px 2px 4px #000;
+      font-weight: 700;
+      line-height: 1.2;
+      box-sizing: border-box;
+      display: block;
+      text-align: center;
+      margin-top: 100px;
   }
-
   .bg-2 { 
-      background-color: rgb(82, 0, 102);
-      color: #ffffff;
+      background-color: #e6e6e6;
+      color: black;
+      margin-bottom: 20px;
   }
 
- 
+  .bg-3 {
+    background-color: #e6e6e6;
+    margin-top: 30px;
+  }
+
+  .bg-4 {
+    background-color: #404040;
+    font-size: 30px;
+    margin-bottom: 
+    padding: 20px;
+  }
+
+  body {
+    background-color: #999999;
+  }
+
 
   
-
-
-
   </style>
 </head>
 <body>
+<a id="top" name="home"></a>
+<div id="corpo" class="container">
+  <div id="barra_nav" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <button type="button" class="navbar-toggle collapsed" aria-expanded="false" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <nav id="navbar-collapsed" role="navigation" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#home" class="scrollable">Home</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="scrollable" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
+          <li><a href="#services" data-toggle="collapse" data-target=".navbar-collapse">Services</a></li>
+          <li><a href="#contact" class="scrollable" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
+          <li><a href="#portfolio" class="scrollable" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a></li>     
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
 
-<div class="container-fluid bg-1 text-center">
+<div class="container-fluid bg-1 text-center" id="home">
   <h1 class="margin">Hello! Welcome to my site.</h1>
-  <img src="http://i.imgur.com/TBBiw6I.jpg?2" style="border: 80px;border-radius: 50px;">
+  <img src="http://i.imgur.com/TBBiw6I.jpg?2" style="border: 50px;border-radius: 50px;">
   <h3>I am Paul Priester. Aspiring Full stack developer</h3>
+  <a href="#" target="_blank" type="button" class="btn btn-lg" id="button1"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+        <a href="#" target="_blank" type="button" class="btn btn-lg" id="button2"><i class="fa fa-github fa-fw"></i>Github</a>
+        <a href="#" target="_blank" type="button" class="btn btn-lg" id="button3"><i class="fa fa-linkedin fa-fw"></i>Linkedin</a>
+        <a href="#" target="_blank" type="button" class="btn btn-lg" id="button4"><i class="fa fa-fire fa-fw"></i>FreeCodeCamp</a>
+      </div>
+    </div>
+  </section>
 </div>
 
-<div class="container-fluid bg-2 text-center">
+<div class="container-fluid bg-2 text-center" id="about">
+ <a class="ancora" id="top"></a>
+
   <h3 class="margin">About me</h3>
-  <p>Hello everyone this is my personal website telling you a little about myself. This website looks pretty cool right? I created this bio website myself, one of many interest. At the moment I am a beginner at crafting websites but I plan on progressing and challenging myself to make more interactive webpages. Revisit this website in a few months and watch it evolve and become cooler as I advance. I am a New York native, and live in the Bronx. I am the youngest of five children, with three brothers and one sister. After graduating high school I took my talents to St. Johns University. Enjoying math and science I majored in physics, graduating with a bachelor’s degree in physics. Job market being scarce in the field I decided to dabble in coding to become a full stack developer.  </p>
+  <p>Hello everyone this is my personal website telling you a little about myself. This website looks pretty cool right? I created this bio website myself, one of many interest. At the moment I am a beginner at crafting websites but I plan on progressing and challenging myself to make more interactive webpages. Revisit this website in a few months and watch it evolve and become cooler as I advance. I am a New York native, and live in the Bronx. I am the youngest of five children, with three brothers and one sister. After graduating high school I took my talents to St. Johns University. Enjoying math and science I majored in physics, graduating with a bachelor’s degree in physics. Job market being scarce, I decided to dabble in coding to become a full stack developer.  </p>
   
 </div>
-<div class="container">
-  <div class="row">
-   <div class="col-sm-4">
-      <h3 style="text-align: center;">Tech skills</h3>        
-      <p><img src="https://appendto.com/wp-content/uploads/2016/05/javascript-420x168.png"></p>
-      <p><img src="https://s3-ap-southeast-1.amazonaws.com/blog.internshala.com/wp-content/uploads/2016/01/Essential-skills-for-a-graphic-designer-7.jpg"></p>
-    </div>  
 
-    <div class="col-sm-4">
-      <h3 style="text-align: center;">Come see my projects!</h3>
-      	<section>
-      	  <a href="https://github.com/paulpriester">
-	      	<p><i class="fa fa-github"></i> </p>
-	      </a>
-	      <a href="http://www.linkedin.com/in/paul-priester-1b1088136">
-	      	<p><i class="fa fa-linkedin"></i></p>
-	      </a>
-	    </section>
+<div id="services" class="container">
+    <a class="ancora" id="services"></a>
+    <div style="visibility: visible; animation-name: fadeInDown;" class="section-title wow fadeInDown animated">
+      <div class="section-title text-center">
+        <h2>What I Do</h2>
+        <hr>
+      </div>
+      <div class="clearfix"></div>
     </div>
-    <div class="col-sm-4">
-      <h3 style="text-align: center;">Favorite movies</h3>
-      <li><img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-m8zzyx_5670999f.jpeg?region=0%2C0%2C300%2C450"
-          style="height: 300px;width: 300px;border: 30px;border-radius: 50%;"></li>
-      <p>Toy Story is a 1995 American computer-animated buddy comedy adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures. It was directed by John Lasseter in his directorial debut, Toy Story was the first feature-length computer-animated film and the first theatrical film produced by Pixar.</p>
-      <li><img src="http://resizing.flixster.com/tV-zx_H0KMJz6mP_79kHDBV3C14=/800x1200/v1.bTsxMTE3MzAwMDtqOzE3NDA0OzIwNDg7ODAwOzEyMDA" 
-          style="height: 300px;width: 300px;border: 30px;border-radius: 50%;"></li>
-      <p>Fast Five is a 2011 American action film directed by Justin Lin and written by Chris Morgan. It is the fifth installment in The Fast and the Furious franchise. It was released in the United States on April 29, 2011. Fast Five follows Dominic Toretto (Vin Diesel), Brian O'Conner (Paul Walker), and Mia Toretto (Jordana Brewster) as they plan a heist to steal $100 million from corrupt businessman Hernan Reyes (Joaquim de Almeida) while being pursued for arrest by U.S. Diplomatic Security Service (DSS) agent Luke Hobbs (Dwayne Johnson).</p>
-      <li><img src="http://static.rogerebert.com/uploads/movie/movie_poster/superbad-2007/large_o4RdmnamBSp78Fwxf3DvRHClVR0.jpg" 
-          style="height: 300px;width: 300px;border: 30px;border-radius: 50%;"></li>
-      <p>Superbad is a 2007 American teen comedy film directed by Greg Mottola and produced by Judd Apatow. The film stars Jonah Hill and Michael Cera as Seth and Evan, two teenagers about to graduate high-school.Written by Seth Rogen and Evan Goldberg, the script began development when Rogen and Goldberg were 13 years old, and was loosely based on their experience as seniors in Vancouver during the 1990s.</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div style="visibility: visible;" class="row whatido">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-xs"> <i class="fa fa-2x fa-pie-chart"></i> </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h4> Management</h4>
+            <p>Served in various roles to support family-owned business.  Manage team of 10 full-time staff at two locations.  </p>
+          </div>
+        </div>
+      </div>
+     <!--  -->
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div style="visibility: visible;" class="row whatido">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-xs"> <i class="fa fa-2x fa-database"></i> </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h4>Web Technologies</h4>
+            <p>Front-end development- HTML, CSS & JavaScript.<br> Back-end development- MongoDB, AngularJS, Express, NodeJS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div style="visibility: visible;" class="row whatido">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-xs"> <i class="fa fa-2x fa-mortar-board"></i> </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h4>Education</h4>
+            <p>Bachelor's degree in Physics from St. John’s University, Physics Honor Society. <br> The Knowledge House Intro to Tech Entrepreneurship & Advance JavaScript </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container-fluid bg-3 text-center" id="contact">
+ 
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <h2>Contact Me</h2>
+          <hr>
+          <div class="clearfix"></div>
+          <p class="white-text">Want to get in touch? Just send me a message.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form name="sentMessage" id="contactForm" novalidate="">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." type="text">
+              </div>
+              <div class="form-group">
+                <input class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." type="email">
+              </div>
+              <div class="form-group">
+                <input class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." type="tel">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message." rows="5"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button type="submit" class="btn btn-primary">Send</button>
+              <p></p>
+              <p class="small">Please, don't send spam :)</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-4 text-center" id="portfolio">
+    <h3 style="color: white;">Check out my work!</h3>
+    <hr>
+    <div class="clearfix"></div>
+    <div class="icone-fondo">
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-fire"></i></a>
+    </div>
+  </div>
 
 </div>
-
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
